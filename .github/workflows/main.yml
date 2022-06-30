@@ -6,14 +6,6 @@ on:
   #   - cron: "5 2 1 * *"
 
 jobs:
-  name: "Go Repo Trending Weekly"
-
-on:
-  workflow_dispatch:
-  # schedule:
-  #   - cron: "5 2 1 * *"
-
-jobs:
   js:
     runs-on: ubuntu-latest
 
