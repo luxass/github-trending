@@ -1,1 +1,27 @@
+name: "JS Daily Trending"
 
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "5 2 1 * *"
+
+jobs:
+  name: "Go Repo Trending Weekly"
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "5 2 1 * *"
+
+jobs:
+  js:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch Trending Repo
+        uses: luxass/action-trending@main
+        with:
+          language: javascript
