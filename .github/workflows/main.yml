@@ -13,14 +13,15 @@ jobs:
         language: ["python", "javascript", "typescript"]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Fetch Trending Repo
-        uses: luxass/action-trending@v2
+        uses: luxass/action-trending@v2.0.2
         with:
           date: weekly # daily, weekly, monthly (default: daily)
           spoken: da
           language: ${{matrix.language}}
+          output: "{pwd}/dictionaries/{language}/{unix}.json"
       - name: Commit Files
         run: |
           ls -al
