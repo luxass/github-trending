@@ -1,4 +1,4 @@
-name: "JS Daily Trending"
+name: "NOLANG Daily Trending"
 
 on:
   workflow_dispatch:
