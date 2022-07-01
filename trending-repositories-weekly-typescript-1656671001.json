@@ -1,0 +1,99 @@
+[
+  {
+    "author": "ngx-formly",
+    "avatar": "https://github.com/ngx-formly.png",
+    "name": "ngx-formly",
+    "url": "https://github.com/ngx-formly/ngx-formly",
+    "description": "📝 JSON powered / Dynamic forms for Angular",
+    "language": "TypeScript",
+    "color": "#3178c6",
+    "stars": 2282,
+    "forks": 471,
+    "periodStars": 11,
+    "builtBy": [
+      {
+        "username": "aitboudad",
+        "href": "https://github.com/aitboudad",
+        "avatar": "https://avatars.githubusercontent.com/u/1753742"
+      },
+      {
+        "username": "mohammedzamakhan",
+        "href": "https://github.com/mohammedzamakhan",
+        "avatar": "https://avatars.githubusercontent.com/u/2327532"
+      },
+      {
+        "username": "divyakumarjain",
+        "href": "https://github.com/divyakumarjain",
+        "avatar": "https://avatars.githubusercontent.com/u/2039134"
+      },
+      {
+        "username": "MaxKless",
+        "href": "https://github.com/MaxKless",
+        "avatar": "https://avatars.githubusercontent.com/u/34165455"
+      },
+      {
+        "username": "couzic",
+        "href": "https://github.com/couzic",
+        "avatar": "https://avatars.githubusercontent.com/u/1380322"
+      }
+    ]
+  },
+  {
+    "author": "alxshelepenok",
+    "avatar": "https://github.com/alxshelepenok.png",
+    "name": "gatsby-starter-lumen",
+    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen",
+    "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby.",
+    "language": "TypeScript",
+    "color": "#3178c6",
+    "stars": 1845,
+    "forks": 626,
+    "periodStars": 5,
+    "builtBy": [
+      {
+        "username": "renovate-bot",
+        "href": "https://github.com/renovate-bot",
+        "avatar": "https://avatars.githubusercontent.com/u/25180681"
+      },
+      {
+        "username": "alxshelepenok",
+        "href": "https://github.com/alxshelepenok",
+        "avatar": "https://avatars.githubusercontent.com/u/8599449"
+      },
+      {
+        "username": "semantic-release-bot",
+        "href": "https://github.com/semantic-release-bot",
+        "avatar": "https://avatars.githubusercontent.com/u/32174276"
+      }
+    ]
+  },
+  {
+    "author": "nodejs",
+    "avatar": "https://github.com/nodejs.png",
+    "name": "nodejs.dev",
+    "url": "https://github.com/nodejs/nodejs.dev",
+    "description": "A new Node.js resource built using Gatsby.js with React.js, TypeScript, and Remark.",
+    "language": "TypeScript",
+    "color": "#3178c6",
+    "stars": 2007,
+    "forks": 796,
+    "periodStars": 10,
+    "builtBy": [
+      {
+        "username": "benhalverson",
+        "href": "https://github.com/benhalverson",
+        "avatar": "https://avatars.githubusercontent.com/u/7907232"
+      },
+      {
+        "username": "rodion-arr",
+        "href": "https://github.com/rodion-arr",
+        "avatar": "https://avatars.githubusercontent.com/u/5843270"
+      },
+      {
+        "username": "manishprivet",
+        "href": "https://github.com/manishprivet",
+        "avatar": "https://avatars.githubusercontent.com/u/54291836"
+      }
+    ]
+  }
+]
