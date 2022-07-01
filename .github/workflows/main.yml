@@ -20,7 +20,7 @@ jobs:
         with:
           date: weekly # daily, weekly, monthly (default: daily)
           spoken: da
-          language: ${{matrix.lang}}
+          language: ${{matrix.language}}
       - name: Commit Files
         run: |
           ls -al
