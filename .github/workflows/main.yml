@@ -1,4 +1,4 @@
-name: "JS Daily Trending"
+name: "JS Weekly Trending"
 
 on:
   workflow_dispatch:
@@ -17,6 +17,7 @@ jobs:
         uses: luxass/action-trending@main
         with:
           language: javascript
+          date: weekly
       - name: Commit Files
         run: |
           ls -al
