@@ -18,6 +18,7 @@ jobs:
         with:
           language: javascript
           date: monthly
+          spoken: ab
       - name: Commit Files
         run: |
           ls -al
