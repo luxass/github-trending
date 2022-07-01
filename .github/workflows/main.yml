@@ -6,19 +6,21 @@ on:
   #   - cron: "5 2 1 * *"
 
 jobs:
-  js:
+  trending:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        language: ["python", "javascript", "typescript"]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Fetch Trending Repo
-        uses: luxass/action-trending@main
+        uses: luxass/action-trending@v1
         with:
-          type: developers
-          date: weekly
-          spoken: ab
+          date: weekly # daily, weekly, monthly (default: daily)
+          spoken: da
+          language: ${{matrix.lang}}
       - name: Commit Files
         run: |
           ls -al
