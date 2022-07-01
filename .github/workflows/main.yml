@@ -16,9 +16,10 @@ jobs:
       - name: Fetch Trending Repo
         uses: luxass/action-trending@main
         with:
-          language: javascript
+          type: developers
           date: monthly
           spoken: ab
+          sponsorable: true
       - name: Commit Files
         run: |
           ls -al
