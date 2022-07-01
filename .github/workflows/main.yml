@@ -17,9 +17,8 @@ jobs:
         uses: luxass/action-trending@main
         with:
           type: developers
-          date: monthly
+          date: weekly
           spoken: ab
-          sponsorable: true
       - name: Commit Files
         run: |
           ls -al
